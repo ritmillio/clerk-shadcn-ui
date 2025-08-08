@@ -14,7 +14,7 @@ Simply copy and paste the provided CSS into your `globals.css` file, and voil√†‚
     .cl-userButtonPopoverActionButton,
     .cl-accordionTriggerButton,
     .cl-navbarButton {
-      @apply rounded-folli bg-primary text-primary-foreground focus-visible:ring-ring ring-offset-background inline-flex h-9 items-center justify-center px-3 font-medium whitespace-nowrap shadow-none transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50;
+      @apply rounded-2xl bg-primary text-primary-foreground focus-visible:ring-ring ring-offset-background inline-flex h-9 items-center justify-center px-3 font-medium whitespace-nowrap shadow-none transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50;
     }
 
     .cl-formButtonPrimary:hover {
@@ -43,7 +43,7 @@ Simply copy and paste the provided CSS into your `globals.css` file, and voil√†‚
     .cl-userButtonPopoverMain,
     .cl-menuList,
     .cl-actionCard {
-      @apply bg-background border-input rounded-folli border;
+      @apply bg-background border-input rounded-2xl border;
     }
 
     .cl-card,
@@ -117,7 +117,7 @@ Simply copy and paste the provided CSS into your `globals.css` file, and voil√†‚
     .cl-formFieldInput[type="email"],
     .cl-formFieldInput[type="password"],
     .cl-selectSearchInput__countryCode {
-      @apply rounded-folli border-input bg-background text-foreground placeholder:text-muted-foreground ring-offset-background focus-visible:ring-ring flex h-10 w-full border px-3 py-1 file:border-0 file:bg-transparent file:text-sm file:font-medium focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50;
+      @apply rounded-2xl border-input bg-background text-foreground placeholder:text-muted-foreground ring-offset-background focus-visible:ring-ring flex h-10 w-full border px-3 py-1 file:border-0 file:bg-transparent file:text-sm file:font-medium focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50;
     }
 
     .cl-otpCodeFieldInput {
@@ -141,7 +141,7 @@ Simply copy and paste the provided CSS into your `globals.css` file, and voil√†‚
 
     /* Badges */
     .cl-badge {
-      @apply rounded-folli border-input bg-background text-foreground border px-2.5 py-2 text-xs shadow-none;
+      @apply rounded-2xl border-input bg-background text-foreground border px-2.5 py-2 text-xs shadow-none;
     }
     .cl-badge[data-localization-key="badge__unverified"] {
       @apply text-destructive border bg-transparent;
@@ -159,7 +159,7 @@ Simply copy and paste the provided CSS into your `globals.css` file, and voil√†‚
       @apply rounded-l-folli bg-background border-y border-l;
     }
     .cl-scrollBox {
-      @apply rounded-folli border-input bg-background rounded-l-none border;
+      @apply rounded-2xl border-input bg-background rounded-l-none border;
     }
     .cl-navbarMobileMenuRow {
       @apply rounded-t-folli bg-background border-x border-t;
